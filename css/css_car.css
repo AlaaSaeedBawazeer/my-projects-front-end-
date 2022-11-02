@@ -1,0 +1,492 @@
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000  body   00000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+/* 
+body{
+    
+   line-height:1px;
+    font:15px;     
+	padding:0;
+	margin:0;
+	background-color:#ffffff;
+	} */
+
+
+
+
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000  Head body   00000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+header
+{
+    margin:auto;
+    overflow:hidden;
+    color:#8e9897;
+    background-color:#3c4142;
+    text-align: center;
+    
+}
+#branding h1
+{
+    font-family:'Bold Art';
+    padding-top:100px;
+    font-size: 60px;
+    padding:20px;
+    color:white;
+    
+}
+
+
+
+
+
+
+
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000  Menu   00000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+
+.menu-bar
+{
+    margin-top:1px;
+    background-color:#3c4142;
+    text-align:center;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+    list-style:none;
+    color:#ffd800;
+}
+.menu-bar ul li
+{
+    width:120px;
+    margin:15px;
+    padding:15px;
+}
+.menu-bar ul li a
+{
+    text-decoration:none;
+    color:white;
+}
+#active,.menu-bar ul li:hover
+{
+    background:#a9a6a6;
+    border-radius:3px;
+}
+.menu-bar .fa
+{
+    margin:8px;
+}
+
+.sub-menu-1 
+{
+    display:none;
+}
+
+
+.menu-bar ul li:hover .sub-menu-1
+{
+
+    display:block;
+    position:absolute;
+    background-color:#3c4142;
+    margin-top:15px;
+    margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display:block;
+       margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 li
+{
+    
+    width:150px;
+    padding:10px;
+    border-bottom:1px double #ffffff;
+    background:transparent;
+    border-radius:5px;
+    text-align:left;
+}
+
+/*.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    
+}*/
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    border-radius:3px;
+     padding:10px;
+    background-color:black;
+    color:white;
+}
+
+
+
+
+
+
+
+.sub-menu-2 
+{
+    display:none;
+}
+
+
+.menu-bar ul li:hover .sub-menu-2
+{
+    display:block;
+    position:fixed;
+    background-color:#3c4142;
+    margin-top:10px;
+    margin-left:-15px;
+}
+
+
+
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+    display:block;
+     
+}
+.menu-bar ul li:hover .sub-menu-2 li
+{
+    width:320px;
+    padding:10px;
+    border-bottom:1px double #ffffff;
+    background:transparent;
+    border-radius:5px;
+    text-align:left;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child
+{ 
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover
+{
+    border-radius:5px;
+     padding:10px;
+    background-color:black;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000  Head body   00000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+
+
+
+.container1
+{
+    padding-bottom:50px;
+    text-align:center;
+    color:white;
+    background-color:#ffffff;
+    /*background-color:#c51111;*/
+}
+.container1 img
+{
+    
+    margin-top:20px;
+    border-radius:100px;
+    width:100%;
+    height:700px;
+    
+}
+
+
+#mar1 
+{
+   width:100%;
+   background-color:#3c4142;
+    color:white;
+}
+#mar1 p
+{
+    text-align:center;
+    padding:20px;
+}
+
+
+
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000  Head body   00000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+.container
+{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.container a
+{
+   color:black;
+   text-decoration:none;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+.container div:hover img
+{
+    color:#3c4142;
+   background-color:#ff0000;
+      padding:10px;
+}
+
+.container div:hover a
+{
+    color:#ff0000;
+}
+
+.box
+{
+        
+        text-decoration:none;
+        float:left;
+        text-align:center;
+        width:30%;
+        padding:10px;  
+        margin:15px;
+}
+.img1
+    { 
+            
+        height:400px;
+        width:100%;
+        border-radius:100px;
+    }
+
+
+
+
+
+
+    a{
+        text-decoration:none;
+    }
+
+
+
+
+
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000  Head body   00000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+
+.CLASS_INPUT1
+{
+    text-align:center;
+    background-color:#3c4142;
+    /*background-color:#000000;*/
+    padding:50px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000  Head body   00000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+
+
+#sub3
+{
+    
+    color:#3c4142;
+    text-align:center;
+}
+#sub3 textarea
+{
+   
+    width:30%;
+    height:200px;
+}
+#sub3 input
+{
+    background-color:#3c4142;
+    color:#ffffff;
+    margin-top:10px;
+    width:90px;
+    height:35px;
+    border:none;
+}
+
+#but1 input:hover
+{
+    background-color:#8e9897; 
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*0000000000000000000000000000000000000000000000000000000000000000000000000000000  Head body   00000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+
+
+
+
+.sub1
+{
+    background-color:#3c4142;
+}
+
+.sub1 img
+{
+    margin-left:20px;
+    width:20px;
+    height:20px;
+}
+
+.sub1 a
+{
+    color:white;
+    text-decoration:none;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#card_ste {
+    color: white;
+    background-color:#546670 !important;
+}
+
+#card_header_ste{
+    background-color: #7495a7;
+}
+
+
+
+
+
+
+
+
+
+
+#butImgU{
+    height: 30px;
+    margin-right: 5px;
+    width: 40%;
+    background-color: palegoldenrod;
+}
+
+#butImgD{
+    height: 30px;
+    width: 40%;
+    margin-left: 5px;
+    color: #fff;
+    background-color: red;
+}
+
+
+#Type_Table{
+    background-color: #8e9897;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#headShowInput{
+ background-color: #637985;   
+ color: #fff;
+ width:100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #eeeeee;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #62a19c;
+    
+}
+
+hr{
+    background-color: #637985;
+    padding: 0.3px;
+}
